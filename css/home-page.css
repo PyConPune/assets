@@ -1,0 +1,99 @@
+.hero-container {
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 563px;
+    position: relative;
+}
+    .hero-container .content-box {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+.about-section-image {
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: -30px; /* margin-bottom to counter .section-padding*/
+}
+
+.schedule-block {
+    float: left;
+    margin: 30px 15px 30px 0;
+}
+    .schedule-block>div {
+        float: left;
+        padding: 0;
+        margin-right: 15px;
+    }
+        .schedule-block>div p {
+            font-weight: 200;
+            margin: 0;
+        }
+    .schedule-block .schedule-date {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    .schedule-block .schedule-month {
+        padding: 10px 20px;
+    }
+    .schedule-block .schedule-heading {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 15px 0 5px;
+    }
+    .schedule-block .schedule-brief {
+        max-width: 75%;
+    }
+
+.image-block {
+    float: left;
+    width: 22%;
+    margin: 30px 15px 30px 0;
+}
+    .image-block .speaker-image {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    .image-block .speaker-name {
+        padding: 15px 20px 5px;
+    }
+    .image-block .speaker-title {
+        padding: 0 20px 15px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+/* Responsive Design (Starts) */
+/* For mobiles */
+@media only screen and (max-width : 767px) {
+    .schedule-block {
+        margin: 30px 0 0;
+    }
+            .schedule-block>div p {
+                font-weight: 200;
+                margin: 0;
+            }
+        .schedule-block .schedule-brief {
+            max-width: 100%;
+        }
+
+    .image-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+/* Responsive Design (Ends) */
