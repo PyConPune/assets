@@ -285,6 +285,15 @@ input {
                 font-size: 14px;
                 line-height: 30px;
             }
+            .header .nav-menu>li:last-child>a {
+                padding-right: 0;
+            }
+                .header .nav-menu .buy-tickets-btn {
+                    padding: 8px 20px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-top: -8px;
+                }
 
     .mobile-menu-btn {
         position: relative;
@@ -327,6 +336,20 @@ input {
         padding-right: 30px;
     }
 }
+@media only screen and (min-width : 768px) and (max-width : 865px) {
+    .col-960 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header .nav-menu>li>a {
+        padding: 8px;
+        font-size: 13px;
+    }
+        .header .nav-menu .buy-tickets-btn {
+            padding: 5px 12px;
+            font-size: 13px;
+        }
+}
 
 /* For mobiles */
 @media only screen and (max-width : 767px) {
@@ -367,5 +390,9 @@ input {
                 width: 100%;
                 padding: 8px 10px;
             }
+                .header .nav-menu .buy-tickets-btn {
+                    width: 100%;
+                    margin-top: 9px;
+                }
 }
 /* Responsive Design (Ends) */
