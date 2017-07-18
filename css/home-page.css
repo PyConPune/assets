@@ -4,7 +4,8 @@
     background-size: cover;
     height: 563px;
     position: relative;
-    margin-top: 50px; /* margin-top: header's height */
+    padding-top: 50px; /* margin-top = header's height */
+    background-position: 0 50px;
 }
     .hero-container .content-box {
         position: relative;

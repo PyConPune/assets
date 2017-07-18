@@ -309,7 +309,8 @@ input {
     .mobile-menu-btn.close-icon:before {
         content: "x";
         font-size: 35px;
-        line-height: 16px;
+        font-weight: 100;
+        line-height: 11px;
         text-align: center;
         height: 0;
         -webkit-box-shadow: none;
