@@ -235,6 +235,19 @@ button {
 .right-zero {
     right: 0;
 }
+
+.dark {
+    color: #646464;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 600;
+}
+
 /* Form */
 form {
     font-size: 16px;

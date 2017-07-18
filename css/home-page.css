@@ -64,19 +64,89 @@
     width: 22%;
     margin: 30px 15px 30px 0;
 }
-    .image-block .speaker-image {
-        float: left;
-        clear: both;
-        width: 100%;
-    }
-    .image-block .speaker-name {
-        padding: 15px 20px 5px;
-    }
-    .image-block .speaker-title {
-        padding: 0 20px 15px;
-        font-size: 14px;
-        font-weight: 300;
-    }
+.image-block .speaker-image {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+.image-block .speaker-name {
+    padding: 15px 20px 5px;
+}
+.image-block .speaker-title {
+    padding: 0 20px 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.sponsor-logo-container .sponsor-logo img{
+    width: 150px;
+}
+
+.sponsor-logo-container .sponsor-logo {
+    display: inline-block;
+    padding: 40px;
+}
+
+.footer {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;    
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.footer-block div {
+    margin-bottom: 10px;
+}
+
+.map {
+    float: right;
+}
+
+.collage img {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.collage-block-1 {
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    margin-right: 3px;
+}
+
+.collage-block-horizontal {
+    width: calc(100% - 303px); 
+    display: inline-block;
+}
+
+.collage-block-vertical{
+    display: inline-block;
+    width: 200px;
+}
+
+.collage-block-2 {
+    width: 100%;
+    height: 250px;
+    vertical-align: top;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
+.collage-block-3 {
+    width: 100%;
+    height: 250px;
+    vertical-align: bottom;
+}
 
 /* Responsive Design (Starts) */
 /* For mobiles */
